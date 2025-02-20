@@ -32,7 +32,7 @@ document.getElementById('chat-form').addEventListener('submit', function (event)
 
 let userMessage = null;
 
-const API_KEY = `AIzaSyBScYy_dCvcSP5REEDSZnd6BEXWmWr9lmg`;
+const API_KEY = ``; //add your API key here
 
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
